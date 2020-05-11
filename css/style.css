@@ -1,0 +1,447 @@
+div,html,body,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ul{
+    /* 去除列表标签样式 */
+    list-style: none;
+}
+a{
+    /* 去除a元素下滑线 */
+    text-decoration:none：
+}
+.col-md-4{
+    height: 100%;
+    /* background: #f56; */
+
+    position: fixed;
+    top: 0;
+    /* 层级 */
+    z-index:999;
+    box-shadow: 1px 1px 4px #aaa;
+}
+
+.col-md-4 .top{
+    width:100%;
+    /* height: 50px; */
+    /* background: #fff; */
+    padding:20px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:55;
+}
+.col-md-4 ul{
+    /* 弹性盒子 */
+    display: flex;
+    width:196px;
+    height: 36px;
+    padding-left:20px;
+}
+.col-md-4 li{
+    /* 扩张比例 */
+    flex-grow: 1;
+    font-size:16px;
+
+    font-weight: 600;
+
+
+    /* 字体居中 */
+    text-align: center;
+    line-height: 36px
+}
+.col-md-4 .pull-right{
+    margin-top:6px; 
+}
+.col-md-4 .content{
+    padding-top:86px;
+    width: 100%;
+    height: 100%;
+    /* background: #56f; */
+
+    position: relative;
+}
+.col-md-4 .center{
+    width:60%;
+    height: 86px;
+    background: #fff;
+
+    position: absolute;
+    top:0;
+    bottom:0px;
+    margin: auto;
+    left:100px;
+}
+.col-md-4 .center h3{
+    width: 100%;
+    font-size:26px;
+    font-weight:800;
+    padding:20px 0;
+}
+.col-md-4 .center span{
+    margin-left:6px; 
+    color:#00a862;
+    font-size:16px;
+}
+.col-md-4 .center span:last-child{
+    display:inline-block;
+    width: 64px;
+    height: 32px;
+    border: 1px solid #00a862;
+    text-align: center;
+    line-height: 32px;
+    border-radius:15px;
+    margin-left:20px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:999;
+    padding:5px;
+}
+.footer ul{
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.footer ul li{
+    flex-grow:1;
+    text-align: center;
+    font-size: 12px;
+}
+.footer ul li:first-child{
+    color: #00a862;
+}
+.col-md-8{
+    /* height:1500px; */
+    /* background: #56f; */
+    padding:0;
+    padding-bottom:55px;
+    position: relative;
+    
+
+}
+.col-md-8 .banner img{
+    width: 100%;
+}
+.col-md-8 .swiper{
+    position: relative;
+}
+.col-md-8 .ad{
+    width: 40px;
+    background: #000;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    color: #fff;
+    opacity:0.6;
+    text-align: center;
+    line-height: 20px;
+    border-radius:4px;
+    font-size:12px;
+}
+.col-md-8 .banner .right{
+    transition:0.5s;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:20px;
+    background:url('../img/icon-arrow-white.png') no-repeat center center;
+}
+.col-md-8 .banner .right:hover{
+    right:10px 
+}
+.propaganda{
+    background: #eee;
+    padding-bottom:20px; 
+}
+.propaganda .row{
+    margin: 0;
+}
+.col-md-8 .col-sm-4 img{
+    margin-top:20px;
+    width: 100%;
+    transition:0.5s;
+    border-radius:2px; 
+}
+.top-box:hover{
+    /* margin-top:15px; */
+    /* 移动*/
+    transform: translateY(-5px);
+    /* 盒子阴影：x y 模糊程度 颜色；  
+        inset  内阴影
+    */
+    box-shadow:0px 2px 6px #888; 
+}
+
+/* 俱乐部 */
+
+.col-md-8 .club{
+    width: 100%;
+    /* height: 250px; */
+    /* background: #f56; */
+    padding:40px 0;
+}
+.col-md-8 .club>div{
+    width:620px;
+    margin:0 auto;
+    position: relative;
+}
+.col-md-8 .club h4{
+    font-size: 22px;
+    /* font-weight:800; */
+}
+.col-md-8 .club p{
+    width: 360px;
+    font-size: 16px;
+}
+.col-md-8 .club p span{
+    color: #C2A661;
+}
+.club>div>span{
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    color: #00a862;
+    border:1px solid #00a862;
+    border-radius:20px;
+    text-align: center;
+    line-height:36px;
+    margin-left:5px; 
+}
+.club img{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right:0;
+}
+/* 精选 */
+.selected{
+    background: #fafafa;
+    padding: 30px 0;
+}
+.mainTop h3{
+    text-align: center;
+}
+.mainTop>p{
+    text-align: center;
+    line-height:60px;
+    font-size: 16px;
+}
+.selected ul{
+    width:620px;
+    margin:0 auto;
+    padding: 0;
+}
+.selected li{
+    padding:6px;
+    /* margin:0 5px; */
+    /* border:1px solid #ccc; */
+}
+.selected div{
+    transition: 0.5s;
+    /* border:1px solid #ccc; */
+    text-align: center;
+    box-shadow:0px 2px 2px #ccc;
+    margin-top:30px;
+}
+.selected div h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+.selected div p{
+    margin: 0;
+    line-height:26px;
+    color: #666;
+}
+.selected div p:last-child{
+    line-height:70px;
+    font-size: 12px;
+    color: #C2A661;
+}
+.selected img{
+
+    height: 72px;
+
+    margin-top:-34px;
+    /* transform:translateY(-34px); */
+}
+/* 文化 */
+.culture{
+    padding: 30px 0;
+    /* overflow: hidden; */
+    /* height: 228px; */
+    
+}
+.culture .show{
+    overflow: hidden;
+    height:250px;
+    position: relative;
+    padding-left:8%;
+}
+.culture .show>div{
+    /* margin-left:8%; */
+    width:100%;
+    overflow: auto;
+}
+.culture ul{
+    width:1216px;
+    /* height:300px; */
+    /* background: #56f; */
+    display: flex;
+    /* margin: 0; */
+    padding: 0;
+    transition: 0.5s;
+
+
+}
+#roll .right,
+#roll .left{
+    width:29px;
+    height: 29px;
+    background: #fff;
+    position: absolute;
+    /* position: fixed; */
+    top:0;
+    bottom:0;
+    z-index: 999;
+    margin: auto;
+    /* right:20px; */
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+#roll .right{
+    right:20px;
+}
+#roll .right:hover{
+    right:15px;
+}
+#roll .left{
+    left:calc(20px + 8%);
+}
+#roll .left:hover{
+   left:calc(15px + 8%);
+}
+
+.culture li{
+    width: 290px;
+    margin: 20px 5px 0 5px;
+    flex-grow:1;
+    /* padding:0 10px; */
+    box-shadow:0px 1px 2px #ccc;
+    transition: 0.5s;
+
+}
+.culture li div{
+    width: 100%;
+    height: 168px;
+    overflow: hidden;
+    /* margin-right: 0 !important; */
+}
+.culture li div p{
+    margin-top:5px;
+    width:82px;
+    height: 34px;
+    background:#C2A661;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+}
+.culture li:nth-child(1) div{
+    /* height: 168px; */
+    background:url("../img/coffeehouse-coffee-cultivation-kv.jpg") no-repeat center center;
+    background-size: cover;
+}
+.culture li:nth-child(2) div{
+    /* height: 168px; */
+    background:url("../img/coffeehouse-4-fundamentals-kv.jpg") no-repeat center center;
+    background-size: cover;
+}
+.culture li:nth-child(3) div{
+    /* width: 290px; */
+    /* height: 168px; */
+    background:url("../img/coffeehouse-roast-story-kv.jpg") no-repeat center center;
+    background-size: cover;
+}
+.culture li:nth-child(4) div{
+    /* width: 290px; */
+    background:url("../img/coffeehouse-pour-over-kv.jpg") no-repeat center center;
+    background-size: cover;
+}
+.culture li>p{
+    /* width: 100%; */
+    line-height:50px;
+    text-indent: 2em;
+}
+/* 媒体查询   根据屏幕的大小改变样式 */
+/* 平板端样式 */
+@media screen and (max-width:992px){
+    .col-md-4{
+        position: static;
+        height: 200px;
+    }
+    .col-md-4 .center{
+        left:10px;
+    }
+}
+/* 手机端样式 */
+@media screen and (max-width:768px){
+    .col-md-4{
+        height:68px;
+    }
+    .col-md-4 .content{
+        padding-top:0px;
+    }
+    .col-md-4 .center{
+        width: 100%;
+        bottom: 0;
+        left:0;
+        height:68px;
+        line-height:56px;
+    }
+    .col-md-4 .center h3{
+        font-size: 22px;
+        margin-bottom:0px;
+    }
+
+    .col-md-8 .club h4,
+    .col-md-8 .club p,
+    .col-md-8 .club>div
+    {
+        width:100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .club img{
+        position: static;
+    }
+    .col-md-8 .club span{
+        /* margin: 上 右 下 左 */
+        margin: 20px auto 30px auto;
+    }
+    .selected ul{
+        width: 100%;
+    }
+    .culture div{
+        width: 100%;
+        margin: 0;
+    }
+    #roll .right,
+    #roll .left{
+        display: none;
+    }
+}

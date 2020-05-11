@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 网页的标题 -->
+    <title>星巴克</title>
+    <!-- 网页标题图标 -->
+    <!-- link:favicon -->
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <!-- 引用模块 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row box">
+            <div class="col-md-4">
+                <!-- 左侧  头部 -->
+                <div class="top clearfix hidden-xs">
+                    <!-- pull-left 左浮动
+                        pull-right 右浮动
+                    -->
+                    <img src="img/logo.svg" alt="" class="pull-left" width="36px">
+                    <ul class="pull-left">
+                        <li>门店</li>
+                        <li>我的账户</li>
+                        <li>菜单</li>
+                    </ul>
+                    <img src="img/icon-hamburger.svg" alt="" class="pull-right">
+                </div>
+                <!-- 左侧  内容 -->
+                <div class="content">
+                    <div class="center">
+                        <h3>心情惬意，来杯咖啡吧 ☕</h3>
+                        <img src="img/icon-account.png" alt="" class="hidden-xs">
+                        <span class="hidden-xs">登录</span>
+                        <span class="hidden-xs">注册</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-4 col-xs-12">
+                <!-- 轮播图 -->
+                <div class="banner">
+                    <div class="swiper">
+                        <img src="img/home-1.jpg" alt="" class="hidden-xs">
+                        <img src="img/home-1-mobile.jpg" alt="" class="visible-xs">
+
+                        <div class="ad">广告</div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <!-- 宣传 -->
+                <div class="propaganda">
+                    <div class="row">
+                        <div class="col-sm-4"><img src="img/tmall-1218-cn .jpg" alt="" class="top-box"></div>
+                        <div class="col-sm-4"><img src="img/tmall-1213-cn.jpg" alt="" class="top-box"></div>
+                        <div class="col-sm-4"><img src="img/homepage-career-cn.jpg" alt="" class="top-box"></div>
+                    </div>
+                </div>
+                <!-- 俱乐部 -->
+                <div class="club">
+                    <div>
+                        <h4>星享俱乐部</h4>
+                        <p>开启您的星享之旅，星星越多、会员等级越高、好礼越丰富。<span>了解更多 ›</span></p>
+                        <span>注册</span>
+                        <span>登录</span><br>
+                        <img src="img/logo-msr-new.svg" alt="">
+                    </div>
+                </div>
+                <!-- 精选 -->
+                <div class="selected mainTop">
+                    <h3>星巴克精选</h3>
+                    <p>在星巴克天猫旗舰店发现更多咖啡心意</p>
+                    <ul class="row">
+                        <li class="col-sm-3 col-xs-6 ">
+                            <div class="top-box">
+                                <img src="img/tmall-card-01.png" alt="">
+                                <h5>会员星礼包</h5>
+                                <p>星享卡新升级</p>
+                                <p>更多心意好礼</p>
+                                <p>了解更多 ›</p>
+                            </div>
+                        </li>
+                        <li class="col-sm-3 col-xs-6 ">
+                            <div class="top-box">
+                                <img src="img/tmall-card-02.png" alt="">
+                                <h5>星礼卡</h5>
+                                <p>用一份星礼</p>
+                                <p>让心意相随</p>
+                                <p>了解更多 ›</p>
+                            </div>
+                        </li>
+                        <li class="col-sm-3 col-xs-6 ">
+                            <div class="top-box">
+                                <img src="img/tmall-eticket.png" alt="">
+                                <h5>电子产品卷</h5>
+                                <p>心意</p>
+                                <p>从这一杯开始</p>
+                                <p>了解更多 ›</p>
+                            </div>
+
+                        </li>
+                        <li class="col-sm-3 col-xs-6 ">
+                            <div class="top-box">
+                                <img src="img/tmall-reserve.png" alt="">
+                                <h5>咖啡生活</h5>
+                                <p>星巴克</p>
+                                <p>用心制作</p>
+                                <p>了解更多 ›</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 文化 -->
+                <div class="culture mainTop">
+                    <h3>1912 派克街 | 咖啡星讲堂</h3>
+                    <p>了解更多星巴克咖啡文化</p>
+                    <div class="show">
+                        <div>
+                            <ul id="roll">
+                                <li class="top-box">
+                                    <div>
+                                        <p>咖啡知识</p>
+                                    </div>
+                                    <p>咖啡的起源于培植</p>
+                                </li>
+                                <li class="top-box">
+                                    <div>
+                                        <p>咖啡品鉴</p>
+                                    </div>
+
+                                    <p>咖啡调制</p>
+                                </li>
+                                <li class="top-box">
+                                    <div>
+                                        <p>咖啡知识</p>
+
+                                    </div>
+
+                                    <p>咖啡烘焙</p>
+                                </li>
+                                <li class="top-box">
+                                    <div>
+                                        <p>咖啡品鉴</p>
+
+                                    </div>
+
+                                    <p>手冲咖啡</p>
+                                </li>
+                                <div class="left">
+                                    <img src="img/icon-scroll-left.png" alt="" width="18px">
+                                </div>
+                                <div class="right">
+                                    <img src="img/icon-scroll-right.png" alt="" width="18px">
+                                </div>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- 手机端显示尾部导航 -->
+            <div class="visible-xs footer">
+                <ul>
+                    <li>
+                        <img src="img/icon-home-active.png" alt="">
+                        <p>主页</p>
+                    </li>
+                    <li>
+                        <img src="img/icon-stores.png" alt="">
+                        <p>门店</p>
+                    </li>
+                    <li>
+                        <img src="img/icon-account.png" alt="">
+                        <p>我的账户</p>
+                    </li>
+                    <li>
+                        <img src="img/icon-menu.png" alt="">
+                        <p>菜单</p>
+                    </li>
+                    <li>
+                        <img src="img/icon-more.svg" alt="">
+                        <p>更多</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        // jq  头部引入文件
+        $(function () {
+            // 定义一个变量
+            // var aaa = 1;
+
+            // document.documentElement.clientHeight 获取文档的高度
+            var height = document.documentElement.clientHeight;
+
+            // 控制台打印
+            console.log(height)
+            // 获取页面元素dom
+            var row = $('.box')
+
+            console.log(row)
+            // 改变元素的样式
+            row.css({
+                height: height
+            })
+            // 获取对应的元素
+            var ul = $('#roll')
+            var rollRight = $('#roll .right')
+            var rollLeft = $('#roll .left')
+            rollLeft.hide()
+            var i = 0;
+            //拿到外部盒子的宽度
+            var rollWidth = $('.show div').width()
+            // 计算 当前应当移动的距离
+            var index = (ul.width() - rollWidth)/2;
+
+            //页面大小改变事件
+            $(window).resize(function(){
+                //页面改变后从新获取外部盒子宽度
+                rollWidth = $('.show div').width()
+                //因为只是移动两次  计算每次移动的距离
+                index = (ul.width() - rollWidth)/2;
+                // 页面改变后调整盒子移动的位置
+                ul.css({
+                   marginLeft:-i*index+"px"
+                })
+            })
+            // 小圆点绑定点击事件
+            rollRight.click(function(){
+                i++;
+                // 最多点击两次
+                if(i>=2){
+                    i = 2
+                    rollRight.hide(500)
+                    rollLeft.show()
+                }else{
+                    rollRight.show()
+                    rollLeft.show()
+                }
+                // 每次改变移动位置
+                ul.css({
+                   marginLeft:-i*index+"px"
+                })
+            })
+            rollLeft.click(function(){
+                i--;
+                // 最多点击两次
+                if(i<=0){
+                    i = 0
+                    rollLeft.hide(500)
+                    rollRight.show()
+                }else{
+                    rollLeft.show()
+                    rollRight.show()
+                }
+                // 每次改变移动位置
+                ul.css({
+                   marginLeft:-i*index+"px"
+                })
+            })
+
+        })
+    </script>
+</body>
+
+</html>
